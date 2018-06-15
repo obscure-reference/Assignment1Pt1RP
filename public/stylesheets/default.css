@@ -1,3 +1,10 @@
+/** Author: Templated (https://templated.co/retention) & Edited by Roman Polonyaknin
+ * File Name: default.css
+ * Website Name: Assignment 1
+ * File Description: This is a modified CSS template courtesy of Templated.co, containing all CSS information
+ */
+
+
 html, body {
 	height: 100%;
 }
@@ -106,7 +113,7 @@ hr {
 		color: rgb(189, 189, 189);
 	}
 
-/** WRAPPER */
+/** MAIN CONTENT WRAPPER */
 
 #wrapper {
 	background: #FFFFFF url(images/bg01.png) repeat;
@@ -127,79 +134,10 @@ hr {
 }
 
 
-/*********************************************************************************/
-/* Wrappers                                                                      */
-/*********************************************************************************/
-
-#header-wrapper
-{
-	overflow: hidden;
-	background-size: 100%;
-	background: #333333;
-}
 
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
 
-	#header 
-	{
-		position: relative;
-		overflow: hidden;
-		text-align: center;
-	}
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
-
-	#logo 
-	{
-		width: 500px;
-		height: 100px;
-		margin: 0 auto;
-		padding: 2em 0em;
-		text-transform: uppercase;
-	}
-	
-	#logo h1
-	{
-		letter-spacing: 0.10em;
-		font-size: 3em;
-	}
-	
-	#logo p 
-	{
-		letter-spacing: 0.10em;
-		color: #FFF;
-	}
-	
-	#logo a 
-	{
-		text-decoration: none;
-		color: #FFF;
-	}
-
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner 
-	{
-		position: absolute;
-		left: 0;
-		overflow: hidden;
-		z-index: 1;
-	}
-	
-	#banner .image
-	{
-		border: 5px solid #FFFFFF;
-	}
-	
-
-/** MENU */
+/** NAV MENU */
 
 #menu-wrapper
 {
@@ -253,13 +191,7 @@ hr {
 	padding: 0em 0em 5em 0em;
 }
 
-/** CONTENT */
 
-#content
-{
-	float: right;
-	width: 790px;
-}
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -276,54 +208,8 @@ hr {
 	{
 		color: #ADADAD;
 	}
-	
-	#footer .title h2
-	{
-		font-weight: 400;
-		font-size: 1.2em;
-		color: #FFF;
-	}
 
-	#footer .title
-	{
-		border-color: #2D2926 !important;
-	}
 	
-	#footer .style1 li
-	{
-		border-color: #2D2926 !important;
-	}
-	
-	#footer .style1 a
-	{
-		letter-spacing: 0.10em;
-		font-size:1em;
-		color: #B1B1B1;
-	}
-	
-	#box1
-	{
-		float: left;
-		width: 354px;
-		margin-right: 24px;
-		padding-right: 30px;
-	}
-	
-	#box2
-	{
-		float: left;
-		width: 354px;
-		margin-left: 24px;
-		padding-right: 30px;
-	}
-	
-	#box3
-	{
-		float: right;
-		width: 344px;
-		padding-left: 40px;
-	}
-
 
 
 

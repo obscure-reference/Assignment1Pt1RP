@@ -1,4 +1,9 @@
 const url = require('url');
+/** Author: Roman Polonyankin
+ * File Name: exampleUsage.js
+ * Website Name: Assignment 1
+ * File Description: This controller is used to get, render, and activate the appropriate route when called from the index route.
+ */
 
 
 //Each of the blocks below is used to get, render, and activate the appropriate route when called from the index route.

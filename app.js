@@ -1,3 +1,10 @@
+/** Author: Roman Polonyankin & Express Generator
+ * File Name: app.js
+ * Website Name: Assignment 1
+ * File Description: This is the main app.js file that makes the world go round.
+ */
+
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
